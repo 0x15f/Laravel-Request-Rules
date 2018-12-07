@@ -6,7 +6,7 @@ use Illuminate\Support\ServiceProvider;
 use LynnDigital\RequestRules\Commands\GenerateRuleCommand;
 use LynnDigital\RequestRules\Commands\InstallCommand;
 
-class RequestRulesServiceProvider extends ServiceProvider
+class RequestRulesPackageServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap services.

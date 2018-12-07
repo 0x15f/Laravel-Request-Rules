@@ -10,7 +10,7 @@ class InstallCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'rule:install';
+    protected $signature = 'request-rule:install';
 
     /**
      * The console command description.

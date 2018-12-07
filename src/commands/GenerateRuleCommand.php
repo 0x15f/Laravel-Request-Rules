@@ -10,7 +10,7 @@ class GenerateRuleCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'rule:generate {name}';
+    protected $signature = 'request-rule:generate {name}';
 
     /**
      * The console command description.
