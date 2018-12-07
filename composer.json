@@ -1,0 +1,25 @@
+{
+    "name": "0x15f/laravel-request-rules",
+    "authors": [
+        {
+            "name": "Jacob Casto",
+            "email": "jake@lynndigital.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "LynnDigital\\RequestRules\\": "src/"
+        }
+	},
+    "minimum-stability": "dev",
+    "require": {
+        "laravel/laravel": "*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LynnDigital\\RequestRules\\RequestRulesPackageServiceProvider"
+            ]
+        }
+    }
+}

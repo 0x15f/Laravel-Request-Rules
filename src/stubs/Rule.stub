@@ -1,0 +1,22 @@
+<?php
+namespace App\RequestRules;
+
+use LynnDigital\RequestRules\BaseRule;
+
+class {NAME} extends BaseRule {
+
+	public function __construct()
+	{
+
+	}
+
+	public function passes()
+	{
+
+	}
+
+	public function message()
+	{
+
+	}
+}
